@@ -1,0 +1,35 @@
+header, footer {
+    background-color: rgb(83, 81, 81);
+    color: lightgray;
+    text-align: center;
+    padding-top: 10px;
+}
+
+body {
+    background-color: bisque (200, 211, 245);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+main {
+
+    text-align: center;
+    /* padding important to keep content closer to the center, making it more uniform*/
+    padding-left: 15%; 
+    padding-right: 15%;
+}
+img {
+    width: 400px;
+    border: rgb(119, 116, 116) 15px outset; /*make sure that border color blends in with the header and footer background color*/
+}
+
+ul, ol {
+    text-align: left;
+    list-style-position: inside;
+    /* to make sure that the lists say somewhat indented*/
+    margin-left: 15%;
+    
+}
+
+h1, h2, h3 {
+    font-family: fantasy
+}
